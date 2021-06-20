@@ -1,87 +1,87 @@
 {
     "Header": {
 
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "title": "Great products for great ideas",
+        "paragraph": "We build scalable web and mobile applications."
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "We’re GoForSys! India's best web development company since 2014. We are a team of technophiles with uncanny love for innovation and ardour for digital solutions. We help you grow fast and sustain the growth, through our complete package of web development services from website designing and development, Mobile app development, Digital marketing and Data Analytics.",
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+            "Agile Decision Making",
+            "Passionate Team",
+            "Flexibility in approach",
+            "Full Service Digital"
         ],
         "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
+            "Result oriented",
+            "Value for time",
+            "Client Satisfaction",
+            "Data Security"
         ]
     },
     "Services": [{
-            "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "icon": "fa fa-code",
+            "name": "Web Development",
+            "text": "We build beautiful, responsive and feature-rich web based applications that solve real customer problems."
         },
         {
             "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "E-Commerce Development",
+            "text": "We build small to large scale beautiful e commerce web and mobile based applications."
         },
         {
-            "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "icon": "fa fa-mobile",
+            "name": "App Development",
+            "text": "We build Android, iOS and PWA's that work great across multiple devices, screen sizes and resolutions."
         },
         {
-            "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "icon": "fa fa-puzzle-piece",
+            "name": "UI/UX Design",
+            "text": "If great engineering is the heart of a product, great UI/UX is it's face."
         },
         {
-            "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "icon": "fa fa-code-fork",
+            "name": "DevOps",
+            "text": "We've worked on websites handling more than 10 million hits/day. We can scale your products too."
         },
         {
             "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "AI/ML Chatbots",
+            "text": "We're always on the cutting edge of tech. Checkout some of the awesome Alexa skills, Google Actions and chatbots we've built!"
         }
 
 
     ],
     "Testimonials": [{
             "img": "img/testimonials/01.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
+            "text": "\"GoForSys delivered a good quality of work on React-Native based mobile application. It was great working with them.\"",
+            "name": "Andrew Harris"
         },
         {
             "img": "img/testimonials/02.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+            "text": "\"We have worked with GoForSys for several months on different Projects. They have always been pro-active on the feedback and suggestions.\"",
+            "name": "James Albert"
         },
         {
             "img": "img/testimonials/03.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
+            "text": "\"The Best for everything. Great Analysis, Handle Complex projects with ease. I always look forward to working with them.\"",
+            "name": "Nick Youhan"
         },
         {
             "img": "img/testimonials/04.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/05.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
+            "text": "\"Easy to work with, Dont have to repeat yourself 10 times, On time or ahead, Clear on when work will be done, Work is better than expected always.\"",
+            "name": "Terry Winston"
         },
         {
             "img": "img/testimonials/06.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+            "text": "\"Recommended for efficiency and quality of delivery and responsive communication with understanding the requirements.\"",
+            "name": "Ana Calota"
+        },
+        {
+            "img": "img/testimonials/05.jpg",
+            "text": "\"They are amazing. Not only in their speed but in their efficiency, normally I have to go back and forth and it takes a lot of time. NOT with these guys they got it done quicker than expected, and better than expected. No need to hire anyone else.\"",
+            "name": "Jerry Grammount"
         }
     ],
     "Team": [{
@@ -106,31 +106,56 @@
     ],
     "Contact": {
         "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
+        "phone": "Call (+91) 82 09888 473",
+        "email": "sales@goforsys.com",
         "facebook": "fb.com",
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
     "Features": [{
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "fa fa-files-o",
+            "title": "Requirement Gathering",
+            "text": "Requirement Gathering is the first phase where we conduct due diligence with a focused approach by Project Managers and Stake Holders. Requirements are determined, who & how the system/application/software will be used is assessed."
         },
         {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "fa fa-search",
+            "title": "Research",
+            "text": "Research is the second phase that we follow for delivering an appropriate and satisfactory result at client's end. Doing proper research is very important for understanding the project in detail. We conduct the research phase in a proper and desired manner for matching client's project need."
         },
         {
             "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "User Experience",
+            "text": "This is the phase in which we focus on the UI part that is one of the most important things in any project. Our experts are skilled enough to match user requirements and deliver the best outcome. This phase will help in understanding user's mind and so that the result will come in the right ways."
         },
         {
             "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Visual Design",
+            "text": "Visual Design is an essential phase that should be conducted under expert's guidance. We make awesome designs for our prestigious clients and it is our first priority to provide them full satisfaction. Our Visual Design project is simple and systematic for getting perfect results."
+        },
+        {
+            "icon": "fa fa-cog",
+            "title": "Implementation",
+            "text": "In this phase, the development of project takes place and starts in the right manner. We follow every coding step in proper way for getting the required output. It is an important phase which defines the whole coding structure and how and when it will get executed."
+        },
+        {
+            "icon": "fa fa-code",
+            "title": "Development",
+            "text": "One of the lengthiest phases takes off, upon receiving the architecture of the entire system/project. The work here on is segregated in various modules/sites/units and the actual coding kick starts. This phase; though a kind of a back drop of all activities, is the most important as the real/actual coding is done here, yielding success in future."
+        },
+        {
+            "icon": "fa fa-check",
+            "title": "Quality Assurance",
+            "text": "Testing is done on codes that are written with respect to the requirement specifications provided by the clients for quality assurance. Testing ensures the product actually meets the requirements that are gathered during the requirement phase. It comprises of Unit Testing, Integration Testing, System Testing and User Acceptance Testing. All of them are really important for any project to succeed."
+        },
+        {
+            "icon": "fa fa-code-fork",
+            "title": "Deployment & Maintenance",
+            "text": "Deployment phase is where the project - in form of a kid is handed over; deployed at client's site, ready to enhance their brand image. Once the client starts using our software/application; that is when real life issues/scenarios start erupting. Our engineers 24*7 ensure that these issues get resolved as and when they arise."
+        },
+        {
+            "icon": "fa fa-bullhorn",
+            "title": "Promotions",
+            "text": "Promotion is the last phase of project but the most important one and that should be performed in a systematic manner. We hold expertise in handling project promotions and gaining huge traffic for client's business profit needs. This phase is important and we are experienced enough to handle promotion activities effectively."
         }
     ]
 }

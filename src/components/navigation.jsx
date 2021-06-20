@@ -15,8 +15,9 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
+          
           <a className='navbar-brand page-scroll' href='#page-top'>
-            React Landing Page
+            <img className="logo" src="img/goforsys_logo.png" title="GoForSys Technologies"/>  
           </a>{' '}
         </div>
 
@@ -25,11 +26,7 @@ export const Navigation = (props) => {
           id='bs-example-navbar-collapse-1'
         >
           <ul className='nav navbar-nav navbar-right'>
-            <li>
-              <a href='#features' className='page-scroll'>
-                Features
-              </a>
-            </li>
+            
             <li>
               <a href='#about' className='page-scroll'>
                 About
@@ -41,8 +38,13 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
+              <a href='#process' className='page-scroll'>
+                Process
+              </a>
+            </li>
+            <li>
               <a href='#portfolio' className='page-scroll'>
-                Gallery
+                Portfolio
               </a>
             </li>
             <li>
@@ -50,11 +52,11 @@ export const Navigation = (props) => {
                 Testimonials
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href='#team' className='page-scroll'>
                 Team
               </a>
-            </li>
+            </li> */}
             <li>
               <a href='#contact' className='page-scroll'>
                 Contact

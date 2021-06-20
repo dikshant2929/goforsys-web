@@ -17,20 +17,32 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log(name, email, message)
-    emailjs
-      .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
-      )
-      .then(
-        (result) => {
-          console.log(result.text)
-          clearState()
-        },
-        (error) => {
-          console.log(error.text)
-        }
-      )
+    fetch('http://api.goforsys.com/send',{
+      method: 'post',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({name, email, message})
+    }).then(function(response) {
+      return response.json();
+    }).then(function(data) {
+      alert(data.message || "Something went wrong");
+      clearState();
+    }).catch(console.error);
+    // emailjs
+    //   .sendForm(
+    //     'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+    //   )
+    //   .then(
+    //     (result) => {
+    //       console.log(result.text)
+    //       clearState()
+    //     },
+    //     (error) => {
+    //       console.log(error.text)
+    //     }
+    //   )
   }
   return (
     <div>
@@ -39,10 +51,9 @@ export const Contact = (props) => {
           <div className='col-md-8'>
             <div className='row'>
               <div className='section-title'>
-                <h2>Get In Touch</h2>
+                <h2>Partner with a Reliable &amp; Experienced Studio</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                Have a great idea? Let's get in touch. The coffee is on us!.
                 </p>
               </div>
               <form name='sentMessage' validate onSubmit={handleSubmit}>
@@ -56,6 +67,7 @@ export const Contact = (props) => {
                         className='form-control'
                         placeholder='Name'
                         required
+                        value={name}
                         onChange={handleChange}
                       />
                       <p className='help-block text-danger'></p>
@@ -70,6 +82,7 @@ export const Contact = (props) => {
                         className='form-control'
                         placeholder='Email'
                         required
+                        value={email}
                         onChange={handleChange}
                       />
                       <p className='help-block text-danger'></p>
@@ -84,6 +97,7 @@ export const Contact = (props) => {
                     rows='4'
                     placeholder='Message'
                     required
+                    value={message}
                     onChange={handleChange}
                   ></textarea>
                   <p className='help-block text-danger'></p>
@@ -98,19 +112,21 @@ export const Contact = (props) => {
           <div className='col-md-3 col-md-offset-1 contact-info'>
             <div className='contact-item'>
               <h3>Contact Info</h3>
-              <p>
+              {/* <p>
                 <span>
                   <i className='fa fa-map-marker'></i> Address
                 </span>
                 {props.data ? props.data.address : 'loading'}
-              </p>
+              </p> */}
             </div>
             <div className='contact-item'>
               <p>
                 <span>
                   <i className='fa fa-phone'></i> Phone
                 </span>{' '}
-                {props.data ? props.data.phone : 'loading'}
+                <a className="no-anchor" href='tel:+918209888473'>
+                  {props.data ? props.data.phone : 'loading'}
+                </a>
               </p>
             </div>
             <div className='contact-item'>
@@ -118,11 +134,13 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-envelope-o'></i> Email
                 </span>{' '}
-                {props.data ? props.data.email : 'loading'}
+                <a className="no-anchor" href={`mailto:${props.data?.email}`}>
+                  {props.data ? props.data.email : 'loading'}
+                </a>
               </p>
             </div>
           </div>
-          <div className='col-md-12'>
+          {/* <div className='col-md-12'>
             <div className='row'>
               <div className='social'>
                 <ul>
@@ -144,16 +162,13 @@ export const Contact = (props) => {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
-              TemplateWire
-            </a>
+            &copy; 2021 GoForSys Technologies Private Limited
           </p>
         </div>
       </div>
