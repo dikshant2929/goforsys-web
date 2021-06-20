@@ -11,6 +11,7 @@ import { Contact } from './components/contact'
 import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
 import ReactGA from 'react-ga';
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -25,8 +26,8 @@ const App = () => {
     ReactGA.pageview('/home/'+window.location.pathname + window.location.search);
   }, [])
 
-  return (
-    <div>
+  const Layout = () => (
+    <>
       <Navigation />
       <Header data={landingPageData.Header} />
       <About data={landingPageData.About} />
@@ -36,7 +37,15 @@ const App = () => {
       <Testimonials data={landingPageData.Testimonials} />
       {/* <Team data={landingPageData.Team} /> */}
       <Contact data={landingPageData.Contact} ReactGA={ReactGA}/>
-    </div>
+    </>
+  );
+  return (
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Layout} />
+        <Redirect from="*" to="/" />
+      </Switch>
+    </BrowserRouter>
   )
 }
 
