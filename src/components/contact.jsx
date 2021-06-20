@@ -6,7 +6,7 @@ const initialState = {
   email: '',
   message: '',
 }
-export const Contact = (props) => {
+export const Contact = ({ReactGA, ...props}) => {
   const [{ name, email, message }, setState] = useState(initialState)
 
   const handleChange = (e) => {
@@ -27,6 +27,7 @@ export const Contact = (props) => {
     }).then(function(response) {
       return response.json();
     }).then(function(data) {
+      ReactGA.pageview(`/contact-us?q=${JSON.stringify({name, email, message, time: new Date().toLocaleString()})}`);
       alert(data.message || "Something went wrong");
       clearState();
     }).catch(console.error);
