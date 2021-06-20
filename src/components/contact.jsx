@@ -17,7 +17,7 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    fetch('http://api.goforsys.com/send',{
+    fetch('https://api.goforsys.com/send',{
       method: 'post',
       headers: {
         'Accept': 'application/json',
